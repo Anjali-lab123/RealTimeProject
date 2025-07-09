@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://rahulshettyacademy.com/client"/>
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="SeleniumProject.NegativeLoginTest">
+        <methods>
+          <include name="tearUp"/>
+          <include name="tearDown"/>
+          <include name="negativeLogintest"/>
+        </methods>
+      </class> <!-- SeleniumProject.NegativeLoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

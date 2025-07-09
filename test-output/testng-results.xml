@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T17:10:23 IST" name="Suite" finished-at="2025-07-09T17:10:30 IST" duration-ms="6357">
+    <groups>
+    </groups>
+    <test started-at="2025-07-09T17:10:23 IST" name="Test" finished-at="2025-07-09T17:10:30 IST" duration-ms="6357">
+      <class name="SeleniumProject.PositiveLoginTest">
+        <test-method is-config="true" signature="tearUp(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.PositiveLoginTest@747ddf94]" started-at="2025-07-09T17:10:23 IST" name="tearUp" finished-at="2025-07-09T17:10:28 IST" duration-ms="4465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/client]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="positivelogintest()[pri:0, instance:SeleniumProject.PositiveLoginTest@747ddf94]" started-at="2025-07-09T17:10:28 IST" name="positivelogintest" finished-at="2025-07-09T17:10:28 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positivelogintest -->
+      </class> <!-- SeleniumProject.PositiveLoginTest -->
+      <class name="SeleniumProject.NegativeLoginTest">
+        <test-method is-config="true" signature="tearUp(java.lang.String,java.lang.String)[pri:0, instance:SeleniumProject.NegativeLoginTest@4135c3b]" started-at="2025-07-09T17:10:23 IST" name="tearUp" finished-at="2025-07-09T17:10:27 IST" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/client]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="negativeLogintest()[pri:0, instance:SeleniumProject.NegativeLoginTest@4135c3b]" started-at="2025-07-09T17:10:27 IST" name="negativeLogintest" finished-at="2025-07-09T17:10:30 IST" duration-ms="2584" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at SeleniumProject.NegativeLoginTest.negativeLogintest(NegativeLoginTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogintest -->
+      </class> <!-- SeleniumProject.NegativeLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
